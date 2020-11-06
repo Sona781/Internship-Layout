@@ -1,0 +1,98 @@
+.inform {
+  padding-left: 236px;
+}
+
+.inform__top {
+  display: flex;
+}
+
+// Elipse 
+
+.elipse {
+  width: 103px;
+  height: 103px;
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.elipse__comp {
+  margin: 22px 23px;
+}
+
+// Inform top
+
+.inform__name {
+  align-self: center;
+  margin-left: 20px;
+  @include text(38px, normal, 45px, #4f4f4f, Work Sans);
+}
+
+.inform__text {
+  width: 738px;
+  @include text(20px, normal, 28px, #878787, Work Sans);
+  margin-top: 50px;
+}
+
+.inform__text hr {
+  margin-top: 70px;
+}
+
+// Additional Information
+
+.add__inform {
+  display: flex;
+  margin-top: 47px;
+  padding-bottom: 100px;
+}
+
+.commas {
+  align-self: center;
+  margin-bottom: 93px;
+}
+
+.add__imform__commas__text {
+  width: 560px;
+  @include text(20px, normal, 163.44%, #3c3c3c, Work Sans);
+  padding-left: 36px;
+}
+
+.add__imform__commas__text hr {
+  width: 738px;
+  margin-left: -140px;
+  margin-top: 44px;
+}
+
+// Phones images
+
+.phones {
+}
+
+.phone1 {
+  position: absolute;
+  left: 1292.4px;
+  top: 940px;
+  z-index: 1;
+}
+
+.phone1__img {
+  width: 442px;
+  height: 714px;
+}
+
+.phone1__logo {
+  position: absolute;
+  top: 10%;
+  left: 165px;
+}
+
+.phone2 {
+  position: absolute;
+  left: 1120px;
+  top: 965px;
+}
+
+.phone2__img {
+  width: 410px;
+  height: 663px;
+}

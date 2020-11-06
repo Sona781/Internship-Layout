@@ -1,0 +1,54 @@
+@import "_mixins";
+
+.partners {
+    background-color: #F9F8F8;
+}
+
+.partners__name {
+    h3 {
+        @include text(42px, bold, 163.44%, #4f4f4f, Work Sans);
+        text-align: justify;
+        padding-left: 827px;
+        padding-top: 42px;
+    }
+
+    hr {
+        width: 75px;
+        margin-left: 922px;
+        margin-top: 35px;
+    }
+}
+
+.partners__cards {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 95px;
+    padding-top: 59px;
+}
+
+.partners__card {
+    border: 1px solid #3082B9;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+}
+
+.partners__card__img1 {
+    margin-bottom: -33px;
+    margin-top: -20px;
+}
+
+.partners__card__img2 {
+    padding-top: 29px;
+    padding-left: 33px;
+}
+
+.partners__card__img3 {
+    padding-top: 70px;
+    padding-left: 25px;
+}
+
+.partners__card__img4 {
+    padding-top: 34px;
+    padding-left: 20px;
+}

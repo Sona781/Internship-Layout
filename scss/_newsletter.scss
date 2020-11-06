@@ -1,0 +1,55 @@
+@import "_mixins";
+
+.newsletter {
+  background: #1c75bc;
+}
+
+.newsletter__name {
+  padding-left: 259px;
+  h3 {
+    padding-top: 71px;
+    @include text(55px, bold, 90px, #ffffff, Noto Sans);
+    text-align: justify;
+  }
+
+  hr {
+    margin-top: 14px;
+    width: 75px;
+  }
+}
+
+.newsletter__inputs {
+  padding-top: 43px;
+  padding-left: 249px;
+}
+
+.newsletter__inputs input {
+    margin-left: 10px;
+    background: #FFFFFF;
+    width: 345px;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    @include text(16px, normal, 163.44%, #878787, Work Sans);
+}
+
+.newsletter__inputs button {
+    background: #55A928;
+    width: 270px;
+    height: 60px;
+    margin-left: 109px;
+    border-radius: 3px;
+    @include text(20px, 600, 163.44%, #ffffff, Work Sans);
+}
+
+.newsletter__bottom {
+    margin-top: 75px;
+    background: #70D9FF;
+    height: 77px;
+
+    p {
+        @include text(16px, normal, 163.44%, #ffffff, Work Sans);
+        padding-left: 598px;
+        padding-top: 26px;
+    }
+}

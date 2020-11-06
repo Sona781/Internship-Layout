@@ -1,0 +1,21 @@
+@mixin text($size, $weight, $lineHeight, $color, $fFamily) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lineHeight;
+  color: $color;
+  font-family: $fFamily;
+}
+
+@mixin elipse($left, $top : 2570px) {
+  position: absolute;
+  transform: rotate(16.55deg);
+  z-index: 1;
+  top: $top;
+  left: $left;
+}
+
+@mixin polygon($left, $top : 2650px) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}

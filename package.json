@@ -1,0 +1,14 @@
+{
+  "name": "Internship",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Sona781/Internship-Layout.git",
+  "author": "Sona Babaxanyan <sonul.babaxanyan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.29.0"
+  },
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  }
+}

@@ -1,0 +1,34 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*   Header */
+@import "_header";
+
+// Information
+@import "_inform";
+
+// News
+@import "_news";
+
+// Our Prodacts
+@import "_prodacts";
+
+// Our Partners
+@import "_partners";
+
+// Newsletter 
+@import "_newsletter";
+
+// Bottom Navbar 
+@import "_bottomNavbar";
+
+// Responsive
+@import "_responsive";

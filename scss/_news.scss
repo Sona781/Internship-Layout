@@ -1,0 +1,49 @@
+@import "mixins";
+
+.news {
+  background: url("./../img/news.png") no-repeat;
+}
+
+.news__rect {
+  background: rgba(28, 117, 188, 0.64);
+  width: 966px;
+  height: 575px;
+  margin-left: auto;
+
+  hr {
+    width: 75px;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+  }
+}
+
+.news__expertise {
+  padding-top: 105px;
+  padding-left: 60px;
+}
+
+.news__name {
+  @include text(38px, bold, 45px, #ffffff, Work Sans);
+  padding-bottom: 23px;
+}
+
+.news__text {
+  @include text(22px, 600, 26px, #ffffff, Work Sans);
+  width: 614px;
+  text-align: justify;
+  padding-bottom: 41px;
+}
+
+.news__add__text {
+  @include text(22px, normal, 26px, #ffffff, Work Sans);
+  text-align: justify;
+  width: 702px;
+  padding-bottom: 36px;
+}
+
+.news__button {
+  @include text(20px, normal, 23px, #ffffff, Work Sans);
+  width: 203px;
+  height: 50px;
+  border: 1px solid #ffffff;
+}

@@ -1,0 +1,160 @@
+@import "mixins";
+
+.prodacts {
+  margin-bottom: 100px;
+}
+
+.prodacts__name h2 {
+  margin-top: 100px;
+  margin-left: 822px;
+  margin-bottom: 30px;
+  @include text(42px, bold, 163.44%, #4f4f4f, Noto Sans);
+  text-align: justify;
+}
+
+.prodacts__name hr {
+  width: 75px;
+  border: 1px solid #808285;
+  margin-left: 922px;
+  margin-bottom: 55px;
+}
+
+.arrows {
+  width: 22px;
+  height: 22px;
+  border-color: #000;
+  position: absolute;
+  top: 2792px;
+}
+
+.prev {
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  transform: rotate(45deg);
+  left: 100px;
+}
+
+.next {
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  transform: rotate(-135deg);
+  right: 100px;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 359px;
+  height: 477px;
+  background: #ffffff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  justify-content: space-around;
+  margin-right: 21px;
+}
+
+.card1 {
+  margin-left: 208px;
+}
+
+.card__img {
+  padding-left: 128px;
+  padding-top: 44px;
+  position: relative;
+  z-index: 2;
+}
+
+.card__elipse {
+  @include elipse(287.71px);
+}
+
+.card__polygon {
+  @include polygon(360px);
+}
+
+.card__inform {
+  padding-top: 45px;
+}
+
+.card__name {
+  padding-top: 20px;
+  padding-left: 155px;
+  padding-bottom: 20px;
+  @include text(22px, bold, 26px, #4f4f4f, Work Sans);
+}
+
+.card__text {
+  padding-bottom: 24px;
+  width: 350px;
+  @include text(18px, normal, 28px, #878787, Work Sans);
+  text-align: center;
+}
+
+.card__button {
+  margin-left: 151px;
+  width: 56px;
+  height: 31px;
+  @include text(22px, bold, 31px, #54b4ce, Work Sans);
+  text-align: justify;
+}
+
+.card2 {
+  .card__img {
+    padding-left: 110px;
+  }
+
+  .card2__elipse {
+    @include elipse(667.71px);
+  }
+
+  .card2__polygon {
+    @include polygon(740px);
+  }
+
+  .card__inform {
+    padding-top: 25px;
+  }
+
+  .card__name {
+    padding-left: 60px;
+  }
+}
+
+.card3 {
+  .card__img {
+    padding-left: 78px;
+  }
+
+  .card3__elipse {
+    @include elipse(1047.71px);
+  }
+
+  .card3__polygon {
+    @include polygon(1120px);
+  }
+
+  .card__inform {
+    padding-top: 25px;
+  }
+
+  .card__name {
+    padding-left: 131px;
+  }
+}
+
+.card4 {
+  .card4__elipse {
+    @include elipse(1428.71px);
+  }
+
+  .card4__polygon {
+    @include polygon(1501px)
+  }
+
+  .card__name {
+    padding-top: 10px;
+    padding-left: 103px;
+  }
+}
